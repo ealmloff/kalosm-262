@@ -1,0 +1,8 @@
+[package]
+name = "kalosm-262"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+kalosm = { git = "https://github.com/floneum/floneum", rev = "3d7460268c5a3422e377cde63428ca33656e5e80", features = ["sound"] }
+tokio = { version = "1.40.0", features = ["full"] }
